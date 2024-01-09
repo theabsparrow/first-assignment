@@ -173,13 +173,17 @@
 .content-text {
     text-align: center;
 
+
 }
 
 .container-text-heading h1 {
-    font-size: 26px;
+    font-size: 32px;
+    color: #070211;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
-    line-height: 35px;
+    line-height: 56px;
     text-transform: capitalize;
+
 }
 
 .red {
@@ -196,6 +200,7 @@
     color: #FFF;
     text-align: center;
     font-size: 20px;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
 }
 
@@ -226,14 +231,16 @@
 .full-content .text-content h1 {
     color: #070211;
     font-size: 48px;
+    font-family: 'Merriweather', serif;
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
 }
 
 .full-content .text-content p {
-    color: black;
+    color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 32px;
 }
@@ -253,7 +260,7 @@
 }
 
 .offer-heading p {
-    color: black;
+    color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -262,16 +269,19 @@
 }
 
 .section-content {
+    
     width: 85%;
     max-width: 1320px;
+    height: 930px;
     margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0px;
+    margin-bottom: 120px;
+    
 }
 
 /* font-family: 'Merriweather', serif; */
-/*  */
+/* font-family: 'Inter', sans-serif; */
 
 .section-heading {
     text-align: center;
@@ -283,6 +293,7 @@
 .section-heading h3 {
     color: #070211;
     font-size: 24px;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     margin-bottom: 16px;
 }
@@ -290,6 +301,7 @@
 .section-heading h1 {
     color: #070211;
     font-size: 72px;
+    font-family: 'Merriweather', serif;
     font-weight: 900;
     margin-bottom: 16px;
 }
@@ -299,8 +311,9 @@
 }
 
 .section-heading p {
-    color: black;
+    color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     line-height: 25px;
     display: flex;
@@ -333,18 +346,21 @@
     right: 300px;
 }
 
-.cection-five {
+.section-five {
     margin-top: 0px;
 }
 
 .gift-content {
     width: 85%;
     max-width: 1320px;
-    margin: 0px auto;
+    margin: auto;
 }
 
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Inter', sans-serif; */
 .gift-content-text h4 {
     color: #F00;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
@@ -353,6 +369,7 @@
 .gift-content-text h1 {
     color: #070211;
     font-size: 48px;
+    font-family: 'Merriweather', serif;
     font-weight: 900;
     margin-bottom: 22px;
     text-transform: capitalize;
@@ -361,6 +378,7 @@
 .gift-content-text p {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 32px;
 }
@@ -404,6 +422,7 @@
 .text-newsletter h1 {
     color: #070211;
     font-size: 48px;
+    font-family: 'Merriweather', serif;
     font-weight: 900;
     text-transform: capitalize;
     margin-bottom: 22px;
@@ -431,26 +450,34 @@ form {
 
 }
 
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Inter', sans-serif; */
 form input {
     width: 648px;
     height: 72px;
-    /* flex-shrink: 0; */
     border: 0px;
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     padding: 0px 30px;
     font-size: 30px;
+    font-family: 'Inter', sans-serif;
     outline: none;
+    color: rgba(7, 2, 17, 0.30)
 
 }
 
 #subscribe {
     width: 210px;
     height: 72px;
-    /* flex-shrink: 0; */
     border: 0px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
 #footer-section {
@@ -478,9 +505,10 @@ a {
 .contact-info {
     display: flex;
     gap: 559px;
-    /* align-items: center; */
+    align-items: center;
     padding-top: 120px;
     padding-bottom: 50px;
+    padding-right: 50px;
 }
 
 .contact-info .contact-number {
@@ -492,6 +520,8 @@ a {
 .contact-info .contact-number h4 {
     width: 195px;
     height: 40;
+    
+
 }
 
 .website {
@@ -515,7 +545,8 @@ hr {
     display: flex;
     gap: 16px;
 }
-.copyright{
+
+.copyright {
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
@@ -528,11 +559,11 @@ hr {
     font-weight: 500;
     align-items: center;
 }
-.copyright #Unsubscribe{
-    /* display: inline-flex; */
-padding: 10px 25px;
-/* justify-content: center; */
-align-items: center;
-border-radius: 8px;
-background:white;
+
+.copyright #Unsubscribe {
+    padding: 10px 25px;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    border-radius: 8px;
+    background: white;
 }
