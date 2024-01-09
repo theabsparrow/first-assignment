@@ -433,14 +433,14 @@ form {
 
 form input {
     width: 648px;
-height: 72px;
-/* flex-shrink: 0; */
-border: 0px;
-border-radius:50px 0px 0px 50px;
-background: #FFF;
-padding:0px 30px;
-font-size: 30px;
-outline: none;
+    height: 72px;
+    /* flex-shrink: 0; */
+    border: 0px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding: 0px 30px;
+    font-size: 30px;
+    outline: none;
 
 }
 
@@ -451,4 +451,54 @@ outline: none;
     border: 0px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+}
+
+#footer-section {
+
+    background: #070211;
+    /* height: 609px; */
+}
+
+.footer-content {
+    width: 85%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-info h4,
+a {
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact-info {
+    display: flex;
+    gap: 559px;
+    /* align-items: center; */
+    padding-top: 120px;
+}
+
+.contact-info .contact-number {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.contact-info .contact-number h4 {
+    width: 195px;
+    height: 40;
+}
+
+.website {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.website a {
+    text-decoration: none;
 }
