@@ -271,7 +271,7 @@
 }
 
 /* font-family: 'Merriweather', serif; */
-/* font-family: 'Inter', sans-serif; */
+/*  */
 
 .section-heading {
     text-align: center;
@@ -456,7 +456,7 @@ form input {
 #footer-section {
 
     background: #070211;
-    /* height: 609px; */
+    height: 609px;
 }
 
 .footer-content {
@@ -480,6 +480,7 @@ a {
     gap: 559px;
     /* align-items: center; */
     padding-top: 120px;
+    padding-bottom: 50px;
 }
 
 .contact-info .contact-number {
@@ -501,4 +502,37 @@ a {
 
 .website a {
     text-decoration: none;
+}
+
+hr {
+    border-top: 1px solid indigo;
+}
+
+.social-media {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding: 0px 500px;
+    display: flex;
+    gap: 16px;
+}
+.copyright{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copy {
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    align-items: center;
+}
+.copyright #Unsubscribe{
+    /* display: inline-flex; */
+padding: 10px 25px;
+/* justify-content: center; */
+align-items: center;
+border-radius: 8px;
+background:white;
 }
